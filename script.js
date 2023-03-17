@@ -5,7 +5,7 @@ const seconds= document.getElementById("seconds")
 
 const currentYear = new Date().getFullYear();
 
-const countDownTime = new Date(`April 01 ${currentYear} 00:00:00 `);
+const countDownTime = new Date(`May 01 ${currentYear} 00:00:00 `);
 
 function updateCountDown(){
     const currentTime = new Date();
